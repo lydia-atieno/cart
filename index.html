@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <!--<div class="menu">
+            <div class="logo">
+                Lun<span>Dev</span>
+            </div>
+            <ul>
+                <li><i class="fa-solid fa-house-user"></i>Home</li>
+                <li><i class="fa-solid fa-user"></i>User</li>
+                <li><i class="fa-solid fa-heart"></i>Favourite</li>
+            </ul>
+            <ul>
+                <li><i class="fa-brands fa-tiktok"></i>tiktok</li>
+                <li><i class="fa-brands fa-facebook"></i>facebook</li>
+                <li><i class="fa-brands fa-instagram"></i>instagram</li>
+            </ul>
+        </div>-->
+        <div class="center">
+            <div class="search">
+                <div class="form">
+                  <!--  <li><i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="search...">
+                        <button>Search</button>-->
+                </div>
+            </div>
+
+            <!--Features Section
+
+            <section class="features" id="features">
+                <h1 class="heading">Our Features</h1>
+        
+                <div class="box-container">
+                    <div class="box">
+                        <img src="file:///C:/Users/user/Desktop/Accessories/img/54.jpg" width="105" height="100">
+                        <h3>Elegant and Classy</h3>
+                        <p>Our products are unique, elegant and classy thus complementing your whole look.</p>
+                       <a href="" class="btn">read more</a>
+                    </div>
+        
+                    <div class="box">
+                        <img src="file:///C:/Users/user/Desktop/Accessories/img/c.jpg" width="110" height="100">
+                        <h3>Free Delivery</h3>
+                        <p>We offer free delivery services across the country.</p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+        
+                    <div class="box">
+                        <img src="file:///C:/Users/user/Desktop/Accessories/img/b.jpg" width="100" height="100">
+                        <h3>Easy Payment</h3>
+                        <p>Secure payment options available.</p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+                </div>
+        
+            </section>
+        
+            End Features Section-->
+
+
+
+        
+<!--Products Section-->
+        <h2>PRODUCTS</h2>
+        <div class="list">
+            <div class="item" data-key="1">
+                <div class="img">
+                    <img src="file:///C:/Users/user/Desktop/Cart1/img/1.jpg" width="200" height="200">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 1</div>
+                   <!--<div class="des">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Sunt velit aliquam facilis voluptates corrupti ut eum architecto suscipit nihil provident?
+                    </div>-->
+                    <div class="price">Ksh. 200</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(1)"><i class="fa-solid fa-trash-can"></i> </button>
+                </div>
+            </div>
+
+            <div class="item" data-key="2">
+                <div class="img">
+                    <img src="file:///C:/Users/user/Desktop/Cart1/img/2.jpg" width="210" height="200">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 2</div>
+                   
+                    <div class="price">Ksh. 100</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(2)"><i class="fa-solid fa-trash-can"></i> </button>
+                </div>
+            </div>
+
+            <div class="item" data-key="3">
+                <div class="img">
+                    <img src="file:///C:/Users/user/Desktop/Cart1/img/3.jpg" width="210" height="200">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 3</div>
+                    
+                    <div class="price">Ksh. 400</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(3)"><i class="fa-solid fa-trash-can"></i> </button>
+                </div>
+            </div>
+
+            <div class="item" data-key="4">
+                <div class="img">
+                    <img src="file:///C:/Users/user/Desktop/Cart1/img/4.jpg" width="210" height="200">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 4</div>
+                    
+                    <div class="price">Ksh. 200</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i> </button>
+                </div>
+            </div>
+
+            <div class="item" data-key="5">
+                <div class="img">
+                    <img src="file:///C:/Users/user/Desktop/Cart1/img/5.jpg" width="210" height="200">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 5</div>
+                    
+                    <div class="price">Ksh. 500</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(5)"><i class="fa-solid fa-trash-can"></i> </button>
+                </div>
+            </div>
+
+
+            <div class="item" data-key="6">
+                <div class="img">
+                    <img src="file:///C:/Users/user/Desktop/Cart1/img/6.jpg" width="210" height="200">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 6</div>
+                    
+                    <div class="price">Ksh. 100</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(6)"><i class="fa-solid fa-trash-can"></i> </button>
+                </div>
+            </div>
+
+
+            <div class="item" data-key="7">
+                <div class="img">
+                    <img src="file:///C:/Users/user/Desktop/Cart1/img/7.jpg" width="210" height="200">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 7</div>
+                    
+                    <div class="price">Ksh. 300</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(7)"><i class="fa-solid fa-trash-can"></i> </button>
+                </div>
+            </div>
+
+            <div class="item" data-key="8">
+                <div class="img">
+                    <img src="file:///C:/Users/user/Desktop/Cart1/img/8.jpg" width="210" height="200">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 8</div>
+                    
+                    <div class="price">Ksh. 300</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(8)"><i class="fa-solid fa-trash-can"></i> </button>
+                </div>
+            </div>
+
+            <div class="item" data-key="9">
+                <div class="img">
+                    <img src="file:///C:/Users/user/Desktop/Cart1/img/9.jpg" width="210" height="200">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 9</div>
+                    
+                    <div class="price">Ksh. 700</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(9)"><i class="fa-solid fa-trash-can"></i> </button>
+                </div>
+            </div>
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+        <div class="cart">
+            <div class="name">CART</div>
+            <div class="listCart">
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!--End Products Section-->
+
+<!-- Add this code at the end of your HTML file, just before the closing </body> tag -->
+<script src="./app.js"></script>
+
+</script>
+
+</body>
+</html>
